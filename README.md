@@ -2,9 +2,7 @@
 Utilização do tema (Dracula)[https://draculatheme.com] para SwiftUI.
 
 ## Screenshots
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/16376748/114793909-cce6d300-9d61-11eb-9983-02acf20b0aee.png" width="200"> &nbsp;
-</p>
+![Screenshot](https://user-images.githubusercontent.com/16376748/114793909-cce6d300-9d61-11eb-9983-02acf20b0aee.png)
 
 ## Requisitos
 - iOS 14
