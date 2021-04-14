@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D167C692627A94D006520CF /* Dracula in Frameworks */ = {isa = PBXBuildFile; productRef = 3D167C682627A94D006520CF /* Dracula */; };
+		3D7694B52627B4A1008A2E9A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D7694B42627B4A1008A2E9A /* README.md */; };
 		3DE3CDAF2627A25300304189 /* DraculaThemeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3CDAE2627A25300304189 /* DraculaThemeSwiftUIApp.swift */; };
 		3DE3CDB12627A25300304189 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3CDB02627A25300304189 /* ContentView.swift */; };
 		3DE3CDB32627A25800304189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE3CDB22627A25800304189 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D7694B42627B4A1008A2E9A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3DE3CDAB2627A25300304189 /* DraculaThemeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraculaThemeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE3CDAE2627A25300304189 /* DraculaThemeSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraculaThemeSwiftUIApp.swift; sourceTree = "<group>"; };
 		3DE3CDB02627A25300304189 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D167C692627A94D006520CF /* Dracula in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +40,7 @@
 		3DE3CDA22627A25300304189 = {
 			isa = PBXGroup;
 			children = (
+				3D7694B42627B4A1008A2E9A /* README.md */,
 				3DE3CDAD2627A25300304189 /* DraculaThemeSwiftUI */,
 				3DE3CDAC2627A25300304189 /* Products */,
 			);
@@ -85,6 +90,9 @@
 			dependencies = (
 			);
 			name = DraculaThemeSwiftUI;
+			packageProductDependencies = (
+				3D167C682627A94D006520CF /* Dracula */,
+			);
 			productName = DraculaThemeSwiftUI;
 			productReference = 3DE3CDAB2627A25300304189 /* DraculaThemeSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +120,9 @@
 				Base,
 			);
 			mainGroup = 3DE3CDA22627A25300304189;
+			packageReferences = (
+				3D167C672627A94D006520CF /* XCRemoteSwiftPackageReference "Dracula" */,
+			);
 			productRefGroup = 3DE3CDAC2627A25300304189 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7694B52627B4A1008A2E9A /* README.md in Resources */,
 				3DE3CDB62627A25800304189 /* Preview Assets.xcassets in Resources */,
 				3DE3CDB32627A25800304189 /* Assets.xcassets in Resources */,
 			);
@@ -326,6 +338,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D167C672627A94D006520CF /* XCRemoteSwiftPackageReference "Dracula" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rphlfc/Dracula.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D167C682627A94D006520CF /* Dracula */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D167C672627A94D006520CF /* XCRemoteSwiftPackageReference "Dracula" */;
+			productName = Dracula;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3DE3CDA32627A25300304189 /* Project object */;
 }

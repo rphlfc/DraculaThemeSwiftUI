@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Dracula",
+        "repositoryURL": "https://github.com/rphlfc/Dracula.git",
+        "state": {
+          "branch": "master",
+          "revision": "6a2bc655d64a984febde70e2e5450dd749e78779",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
