@@ -1,5 +1,5 @@
 # Dracula para SwiftUI
-Utilização do tema (Dracula)[https://draculatheme.com] para SwiftUI.
+Utilização do tema [Dracula](https://draculatheme.com) para SwiftUI.
 
 ## Screenshots
 ![Screenshot](https://user-images.githubusercontent.com/16376748/114793909-cce6d300-9d61-11eb-9983-02acf20b0aee.png)
