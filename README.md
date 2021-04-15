@@ -7,6 +7,10 @@ Utilização da biblioteca [Dracula](https://github.com/rphlfc/Dracula) para Swi
 ## Vídeos
 - [Vídeo no YouTube](https://youtu.be/1yGbkzpD8IY)
 
+## Using Swift Package Manager (Xcode 11+)
+
+Vá para `File` -> `Swift Packages` -> `Add Package Dependency`, insira [Dracula repo's URL](https://github.com/rphlfc/Dracula.git). 
+
 ## Requisitos
 - iOS 14
 - SwiftUI
