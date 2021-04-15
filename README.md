@@ -4,6 +4,9 @@ Utilização da biblioteca [Dracula](https://github.com/rphlfc/Dracula) para Swi
 ## Screenshots
 ![Screenshot](https://user-images.githubusercontent.com/16376748/114793909-cce6d300-9d61-11eb-9983-02acf20b0aee.png)
 
+## Vídeos
+- [Vídeo no YouTube](https://youtu.be/1yGbkzpD8IY)
+
 ## Requisitos
 - iOS 14
 - SwiftUI
@@ -16,9 +19,3 @@ Utilização da biblioteca [Dracula](https://github.com/rphlfc/Dracula) para Swi
 - Twitter: [https://twitter.com/rphlfc](https://twitter.com/rphlfc)
 - Website: [https://rphlfc.github.io](https://rphlfc.github.io)
 - Youtube: [https://www.youtube.com/channel/UC7UXnCqiqsV4R9lCwKh-rwg](https://www.youtube.com/channel/UC7UXnCqiqsV4R9lCwKh-rwg)
-
-
-
-
-
-
